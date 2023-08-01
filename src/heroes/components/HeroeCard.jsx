@@ -9,11 +9,15 @@ export const HeroeCard = (
 
     return (
         <>
-            <div className="col" >
+            <div className="col animate__animated animate__fadeIn" >
                 <div className="card">
                     <div className="row no-gutters">
                         <div className="col-4">
-                            <img src={heroImageUrl} className="card-img" alt={ superhero } />
+                            <img 
+                                src={heroImageUrl} 
+                                className="card-img  animate__animated animate__fadeInLeft" 
+                                alt={ superhero } 
+                            />
                         </div>
                         <div className="col-8">
                             <div className="card-body">
